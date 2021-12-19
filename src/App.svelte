@@ -3,6 +3,7 @@
     import Home from "./routes/Home.svelte";
     import About from "./routes/About.svelte";
     import Members from "./routes/Members.svelte";
+	let st4rt="images/st4rt.png";
     $: visible = false;
     function toggle_btns() {
         visible = visible ? false : true;
@@ -12,7 +13,7 @@
 <Router>
     <div>
         <h1>ST4RT</h1>
-        <img src="images/st4rt.png" alt="Image Error" on:click={toggle_btns} />
+        <img src={st4rt} alt="Image Error" on:click={toggle_btns} />
     </div>
     {#if visible}
         <div>
