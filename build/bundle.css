@@ -1,1 +1,70 @@
-h1.svelte-1x5z4hm{color:rgb(233, 221, 221)}img.svelte-1x5z4hm{width:100px;height:100px;border-radius:50%}
+h1 {
+    text-align: center;
+    margin: 0;
+    color: rgb(233, 221, 221);
+}
+.header {
+    height: 200px;
+    border: 1px solid white;
+    border-top: 0px;
+}
+.BoxContainer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 29px -1px #ff0000;
+    -webkit-box-shadow: 0px 0px 29px -1px #ff0000;
+}
+.BoxContainer {
+    position: absolute;
+    right: 100px;
+    top: 50px;
+}
+
+.BoxContainer > li {
+    width: 150px;
+    position: absolute;
+    z-index: -1;
+    display: table;
+    transition: all 0.5s ease;
+    top: 80px;
+    left: 0;
+    opacity: 0;
+    box-shadow: 0px 0px 29px -1px #ff0000;
+    -webkit-box-shadow: 0px 0px 29px -1px #ff0000;
+}
+.BoxContainer > li.active {
+    transform: translateY(35px);
+    z-index: 1;
+    opacity: 1;
+}
+.BoxContainer > li ul {
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(228, 51, 51);
+    border-width: 0px 0px 1px 0px;
+    /* display: flex; */
+    /* align-items: center; */
+    cursor: pointer;
+}
+.BoxContainer > li ul:hover {
+    background-color: rgb(211, 211, 211);
+}
+.BoxContainer > li ul:nth-child(1) {
+    border-top: 0px;
+}
+.BoxContainer > li ul:nth-child(4) {
+    border-bottom: 0px;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a {
+    color: rgb(0, 0, 0);
+}
+a:visited {
+    color: #000000;
+}
