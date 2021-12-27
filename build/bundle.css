@@ -1,20 +1,19 @@
-h1 {
-    text-align: center;
-    margin: 0;
-    color: rgb(233, 221, 221);
-}
 .container {
     min-height: 100vh;
     max-width: 100vw;
 }
 .header {
-    max-width: 100vw;
     display: flex;
-    justify-content: center;
-    /* align-items: center;  */
+    max-width: 100vw;
     min-height: 20vh;
     border: 1px solid white;
     border-top: 0px;
+}
+.header h1 {
+    font-size: 80px;
+    color: rgb(156, 37, 172);
+    margin-right: auto;
+    align-items: center;
 }
 .contents {
     max-width: 100vw;
@@ -27,59 +26,49 @@ h1 {
     border-bottom: 0px;
 }
 
-.BoxContainer img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 29px -1px blue;
-    -webkit-box-shadow: 0px 0px 29px -1px blue;
-}
 .BoxContainer {
-    position: absolute;
-    top: 100px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+}
+.BoxContainer img {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    border: 1px solid black;
+    border-width: 1px 0px 1px 0px;
+    background-color: white;
 }
 
 .BoxContainer > li {
-    width: 150px;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 80px;
     z-index: -1;
-    display: table;
-    transition: all 0.6s ease;
-    top: 100%;
-    left: 50%;
+    transition: all 0.3s ease;
     opacity: 0;
     visibility: hidden;
-    box-shadow: 0px 0px 29px -1px blue;
-    -webkit-box-shadow: 0px 0px 29px -1px blue;
-    transform: translateX(-50%);
     text-align: center;
 }
 .BoxContainer > li.active {
-    /* transform: translateY(60px); */
     z-index: 1;
     opacity: 1;
+    transition: all 0.3s ease;
     visibility: visible;
 }
 .BoxContainer > li ul {
     margin: 0;
     padding: 10px;
     background-color: rgb(255, 255, 255);
-    border: 1px solid blue;
+    border: 1px solid black;
     border-width: 1px 0px 1px 0px;
     cursor: pointer;
 }
 .BoxContainer > li ul:hover {
     background-color: rgb(211, 211, 211);
 }
-/* .BoxContainer > li ul:nth-child(1) {
-    border-top: 5px;
-}
-.BoxContainer > li ul:nth-child(4) {
-    border-bottom: 0px;
-} */
-
 a:link {
     color: rgb(0, 0, 0);
     text-decoration: none;
