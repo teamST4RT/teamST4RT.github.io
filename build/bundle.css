@@ -34,9 +34,9 @@
 }
 .BoxContainer img {
     display: flex;
-    width: 50px;
-    height: 50px;
-    padding: 15px;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
     border: 1px solid black;
     border-width: 1px 0px 1px 0px;
     background-color: white;
@@ -63,7 +63,7 @@
     padding: 10px;
     background-color: rgb(255, 255, 255);
     border: 1px solid black;
-    border-width: 1px 0px 1px 0px;
+    border-width: 0px 0px 1px 0px;
     cursor: pointer;
 }
 .BoxContainer > li ul:hover {
