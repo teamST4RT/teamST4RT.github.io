@@ -1,13 +1,5 @@
 html,
 body {
-    border: 0px solid black;
     margin: 0;
-    width: 100vw;
-    height: 100vh;
     background-color: rgb(177, 146, 146);
-}
-*,
-*:focus,
-*:active {
-    outline: none;
 }
