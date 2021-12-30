@@ -1,10 +1,11 @@
-#four {
+.route-wrapper.svelte-hcanq3{position:inline-flex;top:0;left:0}div.svelte-7unn7g{position:relative}#four {
     color: #897fff;
 }
 #slogan {
     display: inline-flex;
     font-size: 20px;
     align-self: flex-end;
+    margin: 10px;
 }
 .facebook {
     list-style-image: url("https://img.icons8.com/ios/16/000000/facebook--v1.png");
@@ -16,7 +17,7 @@
 .container {
     margin: 20px;
     padding: 20px;
-    border-radius: 2%;
+    border-radius: 16px;
     min-height: 100vh;
     max-width: 100vw;
     background-color: #632a8a;
@@ -38,8 +39,8 @@
     font-family: "Sedgwick Ave", cursive;
 }
 .intro h1 {
+    margin: 10px;
     display: inline-flex;
-    font-weight: 100;
     font-size: 100px;
     color: #e2d3f3;
     padding: 0;
@@ -49,7 +50,7 @@
     justify-content: space-between;
 }
 .navigator img {
-    margin-right: 10px;
+    margin: 10px;
     /* font-family: Verdana, Geneva, Arial, sans-serif; */
     display: inline-flex;
     line-height: 28px;
@@ -59,14 +60,20 @@
     height: 60px;
     border-radius: 50%;
     background-color: white;
+    transition: all 0.3s ease;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .navigator img:hover {
-    transform: translateY(-2px);
+    background-color: rgb(177, 177, 177);
+}
+.navigator img:active {
+    transform: translateY(6px);
 }
 .contents {
+    margin: 10px;
+    display: flex;
     max-width: 100vw;
     min-height: 60vh;
 }
@@ -76,6 +83,7 @@
     max-width: 100vw;
     min-height: 20vh;
     border-top: 1px dashed white;
+    flex-wrap: wrap;
 }
 .box {
     background-color: white;
