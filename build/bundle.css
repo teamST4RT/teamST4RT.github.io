@@ -1,12 +1,11 @@
-.card-container.svelte-1s31e8w{display:flex;flex-wrap:wrap}div.svelte-7unn7g{position:relative}#slogan {
+.route-wrapper.svelte-hcanq3{position:inline-flex;top:0;left:0}#slogan {
     display: inline-flex;
     font-size: 20px;
     align-self: flex-end;
     margin: 10px;
 }
 #st4rt {
-    text-shadow: 1px 1px 0px #df9ac4, 2px 2px 0px #d954ab, 3px 3px 0px #d91b98,
-        4px 4px 0px #4f0346;
+    text-shadow: #b8bad7 1px 1px, #8996d7 2px 2px, #5066ca 3px 3px;
 }
 .facebook {
     list-style-image: url("https://img.icons8.com/ios/16/000000/facebook--v1.png");
@@ -21,10 +20,8 @@
     border-radius: 16px;
     min-height: 100vh;
     max-width: 100vw;
-    background-color: #632a8a;
-    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
-        rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
-        rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    background-color: #07256c;
+    box-shadow: #5066ca -5px 5px, #8996d7 -10px 10px, #b8bad7 -15px 15px;
 }
 .header {
     font-family: Verdana, Geneva, Arial, sans-serif;
@@ -46,8 +43,8 @@
     color: #e2d3f3;
     padding: 0;
     align-items: center;
-    text-shadow: 5px 5px 0px #df9ac4, 10px 10px 0px #d954ab,
-        15px 15px 0px #d91b98, 20px 20px 0px #4f0346;
+
+    text-shadow: #b8bad7 5px 5px, #8996d7 10px 10px, #5066ca 15px 15px;
 }
 .navigator {
     justify-content: space-between;
@@ -140,8 +137,12 @@
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.route-wrapper.svelte-hcanq3{position:inline-flex;top:0;left:0}h1 {
+div.svelte-7unn7g{position:relative}.card-container.svelte-1s31e8w{display:flex;flex-wrap:wrap}.cards h1 {
     color: #e2d3f3;
+    margin: 0px;
+}
+.cards p {
+    margin: 0px;
 }
 .cards {
     display: flex;
@@ -149,7 +150,7 @@
     height: 200px;
     width: 400px;
     border-radius: 16px;
-    background-color: #53008c;
+    background-color: #170880;
     margin: 15px;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
         rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
