@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Anton&display=swap");
 html,
 body {
+    font-family: "Anton", sans-serif;
     color: #e2d3f3;
     margin: 0;
     background-color: #dbe2ef;
