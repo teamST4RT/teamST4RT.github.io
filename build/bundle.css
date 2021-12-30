@@ -1,4 +1,4 @@
-.route-wrapper.svelte-hcanq3{position:inline-flex;top:0;left:0}div.svelte-7unn7g{position:relative}#four {
+div.svelte-7unn7g{position:relative}.route-wrapper.svelte-hcanq3{position:inline-flex;top:0;left:0}#four {
     color: #897fff;
 }
 #slogan {
@@ -126,7 +126,7 @@
     width: 16px;
     height: 16px;
 }
-.right-footer > img {
+.right-footer img {
     width: 160px;
     height: 160px;
     border-radius: 50%;
@@ -134,4 +134,13 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.cards {
+    display: flex;
+    align-items: center;
+}
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
