@@ -1,4 +1,4 @@
-.card-container.svelte-1s31e8w{display:flex;flex-wrap:wrap}#recruit.svelte-1a1ym10.svelte-1a1ym10{font-family:"Sedgwick Ave", cursive;color:#e2d3f3;font-size:16px;opacity:0.6}.home.svelte-1a1ym10>h1.svelte-1a1ym10{text-shadow:#595d99 1px 1px, #2e3b6f 2px 2px, #405de1 3px 3px}.route-wrapper.svelte-hcanq3{position:inline-flex;top:0;left:0}div.svelte-7unn7g{position:relative}#slogan {
+#recruit.svelte-1a1ym10.svelte-1a1ym10{font-family:"Sedgwick Ave", cursive;color:#e2d3f3;font-size:16px;opacity:0.6}.home.svelte-1a1ym10>h1.svelte-1a1ym10{text-shadow:#595d99 1px 1px, #2e3b6f 2px 2px, #405de1 3px 3px}.card-container.svelte-1s31e8w{display:flex;flex-wrap:wrap}#slogan {
     display: inline-flex;
     font-size: 20px;
     align-self: flex-end;
@@ -147,7 +147,7 @@
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.about {
+.route-wrapper.svelte-hcanq3{position:inline-flex;top:0;left:0}div.svelte-7unn7g{position:relative}.about {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -160,7 +160,7 @@
 .record {
     display: flex;
     justify-content: space-around;
-    border: 2px solid white;
+    border: 1px solid white;
     padding: 5px;
     margin: 10px;
     border-radius: 5px;
@@ -198,9 +198,8 @@
     background-color: #170880;
     margin: 15px;
     background: #0052d4; /* fallback for old browsers */
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
-        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .cards {
     transition: all 0.2s ease-in-out;
