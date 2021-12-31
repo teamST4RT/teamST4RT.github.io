@@ -1,4 +1,4 @@
-.card-container.svelte-1s31e8w{display:flex;flex-wrap:wrap}#recruit.svelte-kz4ieb.svelte-kz4ieb{font-family:"Sedgwick Ave", cursive;color:gray;font-size:10px}.home.svelte-kz4ieb>h1.svelte-kz4ieb{display:inline}div.svelte-7unn7g{position:relative}.route-wrapper.svelte-hcanq3{position:inline-flex;top:0;left:0}#slogan {
+.card-container.svelte-1s31e8w{display:flex;flex-wrap:wrap}#recruit.svelte-13mb98q.svelte-13mb98q{font-family:"Sedgwick Ave", cursive;color:gray;font-size:13px}.home.svelte-13mb98q>h1.svelte-13mb98q{display:inline}.route-wrapper.svelte-hcanq3{position:inline-flex;top:0;left:0}div.svelte-7unn7g{position:relative}#slogan {
     display: inline-flex;
     font-size: 20px;
     align-self: flex-end;
@@ -76,7 +76,7 @@
     margin: 10px;
     display: flex;
     max-width: 100vw;
-    /* min-height: 60vh; */
+    min-height: 60vh;
 }
 .footer {
     display: flex;
@@ -149,13 +149,15 @@
 }
 .record {
     display: flex;
-    justify-content: space-between;
-    border-bottom: 2px solid white;
-    margin-bottom: 15px;
+    justify-content: space-around;
+    border: 2px solid white;
+    margin: 10px;
+    border-radius: 16px;
+    background-color: blue;
 }
 .record > span {
-    align-self: flex-end;
-    width: 50%;
+    align-self: center;
+    width: 45%;
 }
 .cards h1 {
     color: #e2d3f3;
