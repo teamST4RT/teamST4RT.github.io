@@ -1,4 +1,4 @@
-.route-wrapper.svelte-hcanq3{position:inline-flex;top:0;left:0}#slogan {
+.card-container.svelte-1s31e8w{display:flex;flex-wrap:wrap}.route-wrapper.svelte-hcanq3{position:inline-flex;top:0;left:0}div.svelte-7unn7g{position:relative}#slogan {
     display: inline-flex;
     font-size: 20px;
     align-self: flex-end;
@@ -137,7 +137,26 @@
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-div.svelte-7unn7g{position:relative}.card-container.svelte-1s31e8w{display:flex;flex-wrap:wrap}.cards h1 {
+.about {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.records {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+.record {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    margin-bottom: 15px;
+}
+.record > span {
+    width: 50%;
+}
+.cards h1 {
     color: #e2d3f3;
     margin: 0px;
 }
