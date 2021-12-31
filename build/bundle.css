@@ -1,4 +1,4 @@
-.card-container.svelte-1s31e8w{display:flex;flex-wrap:wrap}.route-wrapper.svelte-hcanq3{position:inline-flex;top:0;left:0}div.svelte-7unn7g{position:relative}#slogan {
+.card-container.svelte-1s31e8w{display:flex;flex-wrap:wrap}#recruit.svelte-kz4ieb.svelte-kz4ieb{font-family:"Sedgwick Ave", cursive;color:gray;font-size:10px}.home.svelte-kz4ieb>h1.svelte-kz4ieb{display:inline}div.svelte-7unn7g{position:relative}.route-wrapper.svelte-hcanq3{position:inline-flex;top:0;left:0}#slogan {
     display: inline-flex;
     font-size: 20px;
     align-self: flex-end;
@@ -76,7 +76,7 @@
     margin: 10px;
     display: flex;
     max-width: 100vw;
-    min-height: 60vh;
+    /* min-height: 60vh; */
 }
 .footer {
     display: flex;
@@ -145,7 +145,7 @@
 .records {
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 60vw;
 }
 .record {
     display: flex;
@@ -154,6 +154,7 @@
     margin-bottom: 15px;
 }
 .record > span {
+    align-self: flex-end;
     width: 50%;
 }
 .cards h1 {
@@ -192,6 +193,11 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.cards:nth-child(1) > img:nth-child(1) {
+    width: 120px;
+    height: 120px;
+    border: 5px dotted gold;
 }
 .introduce {
     display: flex;
