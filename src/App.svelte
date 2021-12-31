@@ -3,40 +3,73 @@
     import Home from "./routes/Home.svelte";
     import About from "./routes/About.svelte";
     import Members from "./routes/Members.svelte";
-	let st4rt="images/st4rt.png";
-    $: visible = false;
-    function toggle_btns() {
-        visible = visible ? false : true;
-    }
+    import "./stylesheets/App.css";
+    import TransitionContainer from "./components/TransitionContainer.svelte";
+    import RouteTransition from "./components/RouteTransition.svelte";
+    let profile = "./images/profile.svg";
+    let about = "./images/info.png";
+    let mail = "./images/mail.svg";
+    let st4rt = "./images/st4rt.png";
 </script>
 
-<Router>
-    <div>
-        <h1>ST4RT</h1>
-        <img src={st4rt} alt="Image Error" on:click={toggle_btns} />
-    </div>
-    {#if visible}
-        <div>
-            <Link to="/">Base</Link>
-            <Link to="home">Home</Link>
-            <Link to="about">About</Link>
-            <Link to="members">members</Link>
+<Router primary={false}>
+    <div class="container">
+        <div class="header">
+            <div class="intro">
+                <Link to="/"><h1>ST4RT</h1></Link>
+                <span id="slogan">from bottom, we are</span>
+            </div>
+            <div class="navigator">
+                <Link to="/about"><img src={about} alt="about" /></Link>
+                <Link to="/members"><img src={profile} alt="profile" /></Link>
+            </div>
         </div>
-    {/if}
 
-    <Route path="home" component={Home} />
-    <Route path="about" component={About} />
-    <Route path="members" component={Members} />
+        <div class="contents">
+            <TransitionContainer>
+                <Route path="/">
+                    <RouteTransition>
+                        <Home />
+                    </RouteTransition>
+                </Route>
+                <Route path="about">
+                    <RouteTransition>
+                        <About />
+                    </RouteTransition>
+                </Route>
+                <Route path="members">
+                    <RouteTransition>
+                        <Members />
+                    </RouteTransition>
+                </Route>
+            </TransitionContainer>
+        </div>
+        <div class="footer">
+            <div class="left-footer">
+                <span id="st4rt">ST4RT</span>
+                <span>, since 2020.04</span>
+                <p>Contact</p>
+                <div class="box">
+                    <p>
+                        <img class="icons8-email" src={mail} alt="m" />
+                        <a
+                            href="mailto:team.st4rt@gmail.com"
+                            title="mail"
+                            target="_blank">team.st4rt@gmail.com</a
+                        >
+                    </p>
+                    <p>
+                        <i class="icons8-facebook" />
+                        <a
+                            href="https://www.facebook.com/teamst4rt"
+                            target="_blanck">facebook.com/teamst4rt</a
+                        >
+                    </p>
+                </div>
+            </div>
+            <div class="right-footer">
+                <Link to="/"><img src={st4rt} alt="st4rt" /></Link>
+            </div>
+        </div>
+    </div>
 </Router>
-
-<style>
-    h1 {
-        color: rgb(233, 221, 221);
-    }
-
-    img {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-    }
-</style>

@@ -1,0 +1,20 @@
+{
+    "dctfs": [
+        {
+            "p": 1,
+            "n": "Layer7 CTF 2021"
+        },
+        {
+            "p": "1,2,3",
+            "n": "Whitehat Contest 2021"
+        },
+        {
+            "p": "1",
+            "n": "Cyber Guardians CTF Quals 2021"
+        },
+        {
+            "p": "1,2,4",
+            "n": "ANU CTF 2021"
+        }
+    ]
+}

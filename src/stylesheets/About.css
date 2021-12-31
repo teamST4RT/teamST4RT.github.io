@@ -1,0 +1,35 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.records {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+.record {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    background: #0052d4; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #6fb1fc,
+        #4364f7,
+        #0052d4
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #1168cc,
+        #4364f7,
+        #0052d4
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.record > span {
+    align-self: center;
+    width: 50%;
+}

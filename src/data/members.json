@@ -1,0 +1,124 @@
+{
+    "members": [
+        {
+            "name": "Troublemaker",
+            "comment": "I'm leader",
+            "sites": [
+                "http://troublemaker.kr",
+                "",
+                "https://www.facebook.com/profile.php?id=100004538202610",
+                ""
+            ]
+        },
+        {
+            "name": "Kongr",
+            "comment": "Pwn",
+            "sites": ["", "", "", ""]
+        },
+        {
+            "name": "Vardy",
+            "comment": "Web",
+            "sites": ["https://vardy.tistory.com/", "", "", ""]
+        },
+        {
+            "name": "Leopard",
+            "comment": "Web, Iot",
+            "sites": ["", "", "", ""]
+        },
+        {
+            "name": "Eunjo",
+            "comment": "Rev",
+            "sites": ["", "", "", ""]
+        },
+        {
+            "name": "As3617",
+            "comment": "SuperGuesser",
+            "sites": [
+                "https://blog.ssrf.kr/",
+                "https://github.com/as3617/",
+                "https://www.facebook.com/profile.php?id=100009323971830",
+                "https://twitter.com/real_as3617"
+            ]
+        },
+        {
+            "name": "N1net4il",
+            "comment": "Pwn,Rev,Crypto,Iot,Misc,Cloud,Kernel",
+            "sites": [
+                "https://www.n1net4il.kr/",
+                "https://github.com/n1net4il",
+                "https://www.facebook.com/n1net4il",
+                "https://twitter.com/_n1net4il"
+            ]
+        },
+        {
+            "name": "Ainsetin",
+            "comment": "ByeBye",
+            "sites": [
+                "http://ainset.in",
+                "https://github.com/ainsetin",
+                "https://www.facebook.com/ainsetin",
+                "https://twitter.com/ainsetin"
+            ]
+        },
+        {
+            "name": "Holinder4s",
+            "comment": "REV,PWN",
+            "sites": ["", "", "", ""]
+        },
+        {
+            "name": "Mingi",
+            "comment": "Rev,PWN",
+            "sites": ["", "", "", ""]
+        },
+        {
+            "name": "Karatus",
+            "comment": "Kernel",
+            "sites": ["https://karatus.tistory.com/", "", "", ""]
+        },
+        {
+            "name": "Nogy1op",
+            "comment": "Pwn",
+            "sites": ["", "", "", ""]
+        },
+        {
+            "name": "Sean9892",
+            "comment": "Crypto",
+            "sites": [
+                "https://sean9892.github.io/",
+                "",
+                "",
+                "https://twitter.com/sean9892_"
+            ]
+        },
+        {
+            "name": "Jongmin",
+            "comment": "soju",
+            "sites": [
+                "",
+                "",
+                "https://www.facebook.com/profile.php?id=100006915816799",
+                ""
+            ]
+        },
+        {
+            "name": "snwo",
+            "comment": "help me please",
+            "sites": [
+                "https://snwo.tistory.com",
+                "https://github.com/snwox",
+                "",
+                ""
+            ]
+        },
+        {
+            "name": "Pocas",
+            "comment": "Bughunter",
+            "sites": [
+                "http://blog.pocas.kr",
+                "",
+                "",
+                "https://twitter.com/PocasCyber"
+            ]
+        }
+    ]
+}

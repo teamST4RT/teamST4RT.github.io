@@ -1,0 +1,68 @@
+.cards h1 {
+    color: white;
+    margin: 0px;
+}
+.cards p {
+    margin: 0px;
+}
+.cards {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    border-radius: 16px;
+    background-color: #170880;
+    margin: 15px;
+    background: #0052d4; /* fallback for old browsers */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.cards {
+    transition: all 0.2s ease-in-out;
+}
+.cards:hover {
+    transform: translate(5px, -5px);
+}
+.cards > img {
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.cards:nth-child(1) > img:nth-child(1) {
+    border: 5px solid gold;
+}
+.introduce {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+.introduce p {
+    color: white;
+    font-size: 20px;
+    font-family: "Amatic SC", cursive;
+}
+.sites {
+    margin-left: auto;
+    /* margin: 15px; */
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.sites img {
+    transition: all 0.1s ease-in-out;
+    margin: 4px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.sites img:hover {
+    transform: translate(1px, -1px);
+    opacity: 0.3;
+}
