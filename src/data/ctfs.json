@@ -1,44 +1,32 @@
 {
     "ctfs": [
         {
-            "p": 78,
-            "n": "hxp CTF 2021"
+            "p": 10,
+            "n": "Sunshine CTF 2021"
         },
         {
-            "p": 68,
-            "n": "SECCON CTF 2021"
+            "p": 11,
+            "n": "LIT CTF 2021"
         },
         {
-            "p": 91,
-            "n": "HITCON CTF 2021"
+            "p": 43,
+            "n": "HSCTF8 2021"
         },
         {
-            "p": 81,
-            "n": "ASIS CTF 2021"
-        },
-        {
-            "p": 96,
-            "n": "PBCTF CTF 2021"
-        },
-        {
-            "p": 70,
-            "n": "TSG CTF 2021"
+            "p": 45,
+            "n": "M0leConCTF 2021"
         },
         {
             "p": 21,
             "n": "Tamil CTF 2021"
         },
         {
-            "p": 10,
-            "n": "Sunshine CTF 2021"
-        },
-        {
-            "p": 11,
-            "n": "Lexington Informatics Tournament CTF 2021"
-        },
-        {
             "p": 27,
             "n": "DawgCTF 2021"
+        },
+        {
+            "p": 36,
+            "n": "WPI CTF 2021"
         }
     ]
 }
