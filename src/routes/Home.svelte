@@ -5,12 +5,12 @@
     <h1 class="intro">ST4RT</h1>
     <p>a CTF team in Republic of Korea</p>
     <p>
-        consists of office workers engaged in security, college students, and
+        consists of office workers engaged in cyber security, college students, and
         high school students.
     </p>
     <p>We are focusing on CTF and BUGBOUNTY.</p>
     <p id="recruit">
-        # We are recruiting team members at all times. If you were a good CTF
+        # We are recruiting team members at all times. If you are a good CTF
         player, please contact to us at the contact below
     </p>
 </div>

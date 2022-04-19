@@ -1,5 +1,5 @@
 {
-    "dctfs": [
+    "jctfs": [
         {
             "p": 1,
             "n": "Layer7 CTF 2021"
@@ -15,6 +15,10 @@
         {
             "p": "1,2,4",
             "n": "ANU CTF 2021"
-        }
+        },
+		{
+			"p": "1,10,12",
+			"n": "Codegate CTF 2022 Preliminary Junior"
+		}
     ]
 }

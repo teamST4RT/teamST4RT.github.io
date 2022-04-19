@@ -13,10 +13,6 @@
             "n": "HSCTF8 2021"
         },
         {
-            "p": 45,
-            "n": "M0leConCTF 2021"
-        },
-        {
             "p": 21,
             "n": "Tamil CTF 2021"
         },
@@ -27,6 +23,18 @@
         {
             "p": 36,
             "n": "WPI CTF 2021"
-        }
+        },
+        {
+            "p": 51,
+            "n": "Codegate CTF 2022 Preliminary"
+        },
+        {
+            "p": 26,
+            "n": "Securinets CTF Quals 2022"
+        },
+		{
+			"p":11,
+			"n": "DCTF 2022"
+		}
     ]
 }
