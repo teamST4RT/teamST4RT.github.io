@@ -52,7 +52,7 @@
         },
         {
             "name": "Ainsetin",
-            "comment": "ByeBye",
+            "comment": "Best hacker in our team",
             "sites": [
                 "http://ainset.in",
                 "https://github.com/ainsetin",
@@ -118,6 +118,16 @@
                 "",
                 "",
                 "https://twitter.com/PocasCyber"
+            ]
+        },
+        {
+            "name": "AIS",
+            "comment": "PWN",
+            "sites": [
+                "https://shared-grin-7f8.notion.site/592adc5a622349fb8bdbd9f942766cd1",
+                "https://github.com/AIS0127",
+                "https://www.facebook.com/profile.php?id=100011119061419",
+                ""
             ]
         }
     ]
