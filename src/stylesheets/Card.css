@@ -9,13 +9,13 @@
     display: flex;
     align-items: center;
     height: 200px;
-    width: 400px;
+    width: 390px;
     border-radius: 16px;
     background-color: #170880;
     margin: 15px;
-    background: #0052d4; /* fallback for old browsers */
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background: #3378e3; /* fallback for old browsers */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
 }
 .cards {
     transition: all 0.2s ease-in-out;
@@ -25,16 +25,37 @@
 }
 .cards > img {
     margin: 15px;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
 .cards:nth-child(1) > img:nth-child(1) {
-    border: 5px solid gold;
+    border: 5px solid rgb(255, 217, 0);
+    background: #00f;
+    animation: uOrbit 2s linear infinite;
 }
+
+@keyframes sOrbit {
+    from {
+      transform: rotate(360deg) translateX(-6px) rotate(-360deg);
+    }
+    to {
+      transform: rotate(0deg) translateX(-6px) rotate(0deg);
+    }
+  }
+  
+  @keyframes uOrbit {
+    from {
+      transform: rotate(0deg) translateX(9px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translateX(9px) rotate(-360deg);
+    }
+  }
 .introduce {
     display: flex;
     align-items: baseline;

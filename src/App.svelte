@@ -62,7 +62,7 @@
                         <i class="icons8-facebook" />
                         <a
                             href="https://www.facebook.com/teamst4rt"
-                            target="_blanck">facebook.com/teamst4rt</a
+                            target="_blank">facebook.com/teamst4rt</a
                         >
                     </p>
                 </div>
