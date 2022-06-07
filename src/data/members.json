@@ -84,7 +84,7 @@
             "name": "Sean9892",
             "comment": "Crypto",
             "sites": [
-                "https://sean9892.github.io/",
+                "https://sean9892.tistory.com/",
                 "",
                 "",
                 "https://twitter.com/sean9892_"
@@ -139,6 +139,46 @@
 				"https://www.facebook.com/profile.php?id=100007752826094",
 				""
 			]
+        },
+        {
+            "name": "bjloed",
+            "comment": "PWN",
+            "sites": [
+                "https://yysecurity.tistory.com",
+                "",
+                "",
+                ""
+            ]
+        },
+        {
+            "name": "imssm99",
+            "comment": "REV,PWN,WEB",
+            "sites": [
+                "https://blog.imssm99.kr",
+                "https://github.com/imssm99",
+                "",
+                ""
+            ]
+        },
+        {
+            "name": "nicknamemohaji",
+            "comment": "WEB,CRYPTO",
+            "sites": [
+                "https://n0brainer.tistory.com/",
+                "",
+                "",
+                ""
+            ]
+        },
+        {
+            "name": "N0N4M3D_b",
+            "comment": "PWN",
+            "sites": [
+                "https://n0n4m3d-b.tistory.com",
+                "",
+                "",
+                ""
+            ]
         }
     ]
 }
