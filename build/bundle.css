@@ -1,4 +1,4 @@
-#recruit.svelte-1a1ym10.svelte-1a1ym10{font-family:"Sedgwick Ave", cursive;color:#e2d3f3;font-size:16px;opacity:0.6}.home.svelte-1a1ym10>h1.svelte-1a1ym10{text-shadow:#595d99 1px 1px, #2e3b6f 2px 2px, #405de1 3px 3px}.card-container.svelte-1s31e8w{display:flex;flex-wrap:wrap}#slogan {
+#recruit.svelte-1a1ym10.svelte-1a1ym10{font-family:"Sedgwick Ave", cursive;color:#e2d3f3;font-size:16px;opacity:0.6}.home.svelte-1a1ym10>h1.svelte-1a1ym10{text-shadow:#595d99 1px 1px, #2e3b6f 2px 2px, #405de1 3px 3px}#slogan {
     display: inline-flex;
     font-size: 20px;
     align-self: flex-end;
@@ -148,7 +148,7 @@
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-div.svelte-7unn7g{position:relative}.route-wrapper.svelte-hcanq3{position:inline-flex;top:0;left:0}.about {
+.card-container.svelte-1s31e8w{display:flex;flex-wrap:wrap}.route-wrapper.svelte-hcanq3{position:inline-flex;top:0;left:0}div.svelte-7unn7g{position:relative}.about {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
