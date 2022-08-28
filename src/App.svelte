@@ -47,7 +47,7 @@
         <div class="footer">
             <div class="left-footer">
                 <span id="st4rt">ST4RT</span>
-                <span>, since 2020.04</span>
+                <span>, since 2021.04</span>
                 <p>Contact</p>
                 <div class="box">
                     <p>
