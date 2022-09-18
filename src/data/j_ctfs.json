@@ -16,9 +16,13 @@
             "p": "1,2,4",
             "n": "ANU CTF 2021"
         },
-		{
-			"p": "1,10,12",
-			"n": "Codegate CTF 2022 Preliminary Junior"
-		}
+	{
+	    "p": "1,10,12",
+            "n": "Codegate CTF 2022 Preliminary Junior"
+	},
+        {
+            "p": "1,3,4",
+            "n": "HackTheon 2022 (@ainsetin, @sangjun, @jongmin, @sean9892)"
+        }
     ]
 }
