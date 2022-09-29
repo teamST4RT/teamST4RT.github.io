@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <div class="home">
     <h1 class="intro">ST4RT</h1>
     <p>a CTF team in Republic of Korea</p>

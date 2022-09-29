@@ -2,7 +2,6 @@
     export let name;
     export let comment;
     export let sites;
-    import "../stylesheets/Card.css";
     let website = "./images/website.svg";
     let facebook = "./images/facebook.svg";
     let github = "./images/github.svg";
@@ -30,3 +29,7 @@
         {/each}
     </div>
 </div>
+
+<style lang="scss">
+    @import "../stylesheets/Card.css";
+</style>

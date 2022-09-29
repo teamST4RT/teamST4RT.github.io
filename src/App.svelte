@@ -3,7 +3,6 @@
     import Home from "./routes/Home.svelte";
     import About from "./routes/About.svelte";
     import Members from "./routes/Members.svelte";
-    import "./stylesheets/App.css";
     import TransitionContainer from "./components/TransitionContainer.svelte";
     import RouteTransition from "./components/RouteTransition.svelte";
     let profile = "./images/profile.svg";
@@ -73,3 +72,7 @@
         </div>
     </div>
 </Router>
+
+<style lang="scss">
+    @import "./stylesheets/App.scss";
+</style>

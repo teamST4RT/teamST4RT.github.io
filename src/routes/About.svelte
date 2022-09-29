@@ -1,7 +1,6 @@
 <script>
     import { ctfs } from "../data/ctfs.json";
-    import { jctfs } from "../data/j_ctfs.json";
-    import "../stylesheets/About.css";
+    import { dctfs } from "../data/d_ctfs.json";
     let st4rt = "./images/info.svg";
 </script>
 
@@ -14,8 +13,8 @@
                 <span>{ctf.n}</span>
             </div>
         {/each}
-        <h1>JUNIOR CTFs</h1>
-        {#each jctfs as ctf}
+        <h1>DOMESTIC CTFs</h1>
+        {#each dctfs as ctf}
             <div class="record">
                 <span>{ctf.p}</span>
                 <span>{ctf.n}</span>
@@ -23,3 +22,7 @@
         {/each}
     </div>
 </div>
+
+<style lang="scss">
+    @import "../stylesheets/About.scss";
+</style>

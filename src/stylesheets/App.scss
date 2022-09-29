@@ -26,9 +26,7 @@
     box-shadow: #5066ca -5px 5px 2px, #8996d7 -10px 10px 2px,
         #b8bad7 -15px 15px 2px;
 }
-.header a {
-    text-decoration: none;
-}
+
 .header {
     text-decoration: none;
     font-family: Verdana, Geneva, Arial, sans-serif;
@@ -42,16 +40,19 @@
 }
 .intro {
     font-family: "Sedgwick Ave", cursive;
-}
-.intro h1 {
-    margin: 10px;
-    display: inline-flex;
-    font-size: 100px;
-    color: white;
-    padding: 0;
-    align-items: center;
-
-    text-shadow: #595d99 5px 5px, #2e3b6f 10px 10px, #405de1 15px 15px;
+    text-decoration: none;
+    h1 {
+        margin: 10px;
+        display: inline-flex;
+        font-size: 100px;
+        color: white;
+        padding: 0;
+        align-items: center;
+        text-shadow: #595d99 5px 5px, #2e3b6f 10px 10px, #405de1 15px 15px;
+    }
+    a{
+        text-decoration: none;
+    }
 }
 .navigator {
     justify-content: space-between;
@@ -106,25 +107,21 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-.box a {
-    color: black;
-}
-
-.box a:link {
-    color: black;
-}
-.box a {
-    color: black;
-    text-decoration: none;
-    border-bottom: 3px solid rgb(250, 166, 180);
-    transition: all 0.2s ease-in-out;
-}
-.box a:hover {
-    border-bottom: 3px solid rgb(141, 78, 88);
-}
-.box a:visited {
-    color: black;
+    a {
+        color: black;
+        text-decoration: none;
+        border-bottom: 3px solid rgb(250, 166, 180);
+        transition: all 0.2s ease-in-out;
+        &:link {
+            color:black;
+        }
+        &:hover{
+            border-bottom: 3px solid rgb(141, 78, 88);
+        }
+        &:visited{
+            color:black;
+        }
+    }
 }
 .icons8-facebook {
     display: inline-block;
