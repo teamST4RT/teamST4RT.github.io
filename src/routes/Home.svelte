@@ -16,11 +16,12 @@
 <style>
     #recruit {
         font-family: "Sedgwick Ave", cursive;
-        color: #e2d3f3;
+        color: var(--color-gray);
         font-size: 16px;
         opacity: 0.6;
     }
     .home > h1 {
         text-shadow: #595d99 1px 1px, #2e3b6f 2px 2px, #405de1 3px 3px;
+        margin:0;
     }
 </style>

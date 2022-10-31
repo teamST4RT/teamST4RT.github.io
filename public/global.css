@@ -1,14 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Anton&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
-html,
-body {
+/* @import "src/stylesheets/Config.scss"; */
+html {
     font-family: "Anton", sans-serif;
-    color: white;
-    margin: 0;
-    background-color: #dbe2ef;
+    margin:0;
+    --color-bg: #ffffff;
+    --color-text: #2b2b2b;
+    --color-gray: #a0a0a0;
 }
+
+html[data-theme="dark"] {
+    --color-bg:#2b2b2b;
+    --color-text: #ffffff;
+    --color-gray: #c1c1c1;
+}
+
 span,
 p {
     font-size: 20px;
     font-family: "Kanit", sans-serif;
+}
+
+body{
+    background-color: var(--color-bg);
+    color: var(--color-text);   
 }

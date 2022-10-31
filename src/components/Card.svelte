@@ -31,5 +31,5 @@
 </div>
 
 <style lang="scss">
-    @import "../stylesheets/Card.css";
+    @import "../stylesheets/Card.scss";
 </style>
