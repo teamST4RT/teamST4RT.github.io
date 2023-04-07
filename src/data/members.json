@@ -179,6 +179,26 @@
                 "",
                 ""
             ]
+        },
+        {
+            "name": "G1nM0o",
+            "comment": "REV,PWN",
+            "sites": [
+                "",
+                "",
+                "",
+                ""
+            ]
+        },
+        {
+            "name": "ursobad",
+            "comment": "WEB",
+            "sites": [
+                "",
+                "",
+                "",
+                ""
+            ]
         }
     ]
 }

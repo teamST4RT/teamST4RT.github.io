@@ -51,27 +51,27 @@
                         </RouteTransition>
                     </Route>
                 </TransitionContainer>
-            </div>
-        </div>
-        <div class="footer">
-            <div class="left-footer">
-                <span id="st4rt">ST4RT</span>
-                <span>, since 2021.04</span>
-                <p>Contact</p>
-                <div class="box">
-                    <p>
-                        <a
-                            href="mailto:team.st4rt@gmail.com"
-                            title="mail"
-                            target="_blank">team.st4rt@gmail.com</a
-                        >
-                    </p>
-                    <p>
-                        <a
-                            href="https://www.facebook.com/teamst4rt"
-                            target="_blank">facebook.com/teamst4rt</a
-                        >
-                    </p>
+                <div class="footer">
+                    <div class="left-footer">
+                        <span id="st4rt">ST4RT</span>
+                        <span>, since 2021.04</span>
+                        <p>Contact</p>
+                        <div class="box">
+                            <p>
+                                <a
+                                    href="mailto:team.st4rt@gmail.com"
+                                    title="mail"
+                                    target="_blank">team.st4rt@gmail.com</a
+                                >
+                            </p>
+                            <p>
+                                <a
+                                    href="https://www.facebook.com/teamst4rt"
+                                    target="_blank">facebook.com/teamst4rt</a
+                                >
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

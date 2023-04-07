@@ -38,13 +38,7 @@
         color: var(--color-text);
         padding: 0;
         align-items: center;
-        text-shadow: #595d99 5px 5px, #2e3b6f 10px 10px, #405de1 15px 15px;
-    }
-    a:visited{
-        text-decoration: none;
-    }
-    a:link{
-        text-decoration: none;
+        text-shadow: var(--text-shadow);
     }
 }
 
@@ -76,8 +70,9 @@
 }
 
 .contents {
-    margin-right:5%;
-    margin-left:5%;
+    margin-right:4%;
+    margin-left:4%;
+    margin-bottom: 4%;
     display: flex;
     max-width: 100vw;
     flex-direction: column;
