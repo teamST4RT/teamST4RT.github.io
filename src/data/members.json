@@ -12,22 +12,22 @@
         },
         {
             "name": "Kongr",
-            "comment": "Pwn",
+            "comment": "PWN",
             "sites": ["", "", "", ""]
         },
         {
             "name": "Vardy",
-            "comment": "Web",
+            "comment": "WEB",
             "sites": ["https://vardy.tistory.com/", "", "", ""]
         },
         {
             "name": "Leopard",
-            "comment": "Web, Iot",
+            "comment": "WEB, IOT",
             "sites": ["", "", "", ""]
         },
         {
             "name": "Eunjo",
-            "comment": "Rev",
+            "comment": "REV",
             "sites": ["", "", "", ""]
         },
         {
@@ -42,7 +42,7 @@
         },
         {
             "name": "N1net4il",
-            "comment": "Pwn,Rev,Crypto,Iot,Misc,Cloud,Kernel",
+            "comment": "PWN,REV,Crypto,Iot,Misc,Cloud,Kernel",
             "sites": [
                 "https://www.n1net4il.kr/",
                 "https://github.com/n1net4il",
@@ -67,7 +67,7 @@
         },
         {
             "name": "Mingi",
-            "comment": "Rev,PWN",
+            "comment": "REV,PWN",
             "sites": ["", "", "", ""]
         },
         {
@@ -77,7 +77,7 @@
         },
         {
             "name": "Nogy1op",
-            "comment": "Pwn",
+            "comment": "PWN",
             "sites": ["", "", "", ""]
         },
         {
@@ -102,9 +102,9 @@
         },
         {
             "name": "snwo",
-            "comment": "help me please",
+            "comment": "REV,WEB3",
             "sites": [
-                "https://snwo.tistory.com",
+                "https://blog.snwo.kr",
                 "https://github.com/snwox",
                 "",
                 ""

@@ -10,7 +10,6 @@
         # We are recruiting team members at all times. If you are a good CTF
         player, please contact to us at the contact below
     </p>
-	<p> + 2022.05.02, We are Recruiting New Members! Please Check our facebook below </p>
 </div>
 
 <style>

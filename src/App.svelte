@@ -72,6 +72,9 @@
                             </p>
                         </div>
                     </div>
+                    <div class="right-footer">
+                        <p>© 2021. ST4RT. all rights reserved</p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@
     function toggle(cb) {
         document.documentElement.setAttribute(
             "data-theme",
-            cb.target.checked ? "dark" : "light"
+            cb.target.checked ? "light" : "dark"
         );
     };
 </script>

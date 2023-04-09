@@ -1,23 +1,19 @@
 .about {
-    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .records {
-    display: flex;
     flex-direction: column;
-    width: 60vw;
 }
 .record {
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid white;
+    border-bottom: 1px solid var(--color-text);
     padding: 5px;
-    margin: 10px;
-    border-radius: 5px;
-    background: #376cbf; /* fallback for old browsers */
+    border-radius: 10px;
 }
-.record > span {
-    align-self: center;
-    width: 50%;
+.place {
+    font-size: 23px;
+    font-weight: bold;
+    width: 100px;
+    display: inline-block;
+    margin-left: 10px;
 }

@@ -14,19 +14,23 @@
 
 <div class="cards">
     <!-- svelte-ignore a11y-missing-attribute -->
-    <img src={`./images/${name}`} on:error={ImageHandler} />
-    <div class="introduce">
-        <h1>{name}</h1>
-        <p>{comment}</p>
+    <div class="card-image-wrapper">
+        <img src={`./images/${name}`} on:error={ImageHandler} class="card-image"/>
     </div>
-    <div class="sites">
-        {#each sites as site, i}
-            {#if site}
-                <a href={site} target="_blank">
-                    <img src={sites_img[i]} alt="site" /></a
-                >
-            {/if}
-        {/each}
+    <div class="contents-wrapper">
+        <div class="introduce">
+            <h1>{name}</h1>
+            <p>{comment}</p>
+        </div>
+        <div class="sites">
+            {#each sites as site, i}
+                {#if site}
+                    <a href={site} target="_blank">
+                        <img src={sites_img[i]} alt="site" />
+                    </a>
+                {/if}
+            {/each}
+        </div>
     </div>
 </div>
 

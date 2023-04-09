@@ -9,15 +9,15 @@
         <h1>CTFs</h1>
         {#each ctfs as ctf}
             <div class="record">
-                <span>{ctf.p}</span>
-                <span>{ctf.n}</span>
+                <span class="place">{ctf.p}</span>
+                <span class="ctf-name">{ctf.n}</span>
             </div>
         {/each}
         <h1>DOMESTIC CTFs</h1>
         {#each dctfs as ctf}
             <div class="record">
-                <span>{ctf.p}</span>
-                <span>{ctf.n}</span>
+                <span class="place">{ctf.p}</span>
+                <span class="ctf-name">{ctf.n}</span>
             </div>
         {/each}
     </div>
